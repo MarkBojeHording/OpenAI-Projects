@@ -1,4 +1,4 @@
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY =
 
 async function fetchData() {
   const response = await fetch("https://api.openai.com/v1/chat/completions", {
